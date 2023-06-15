@@ -1,0 +1,12 @@
+<h2>Student List</h2>
+
+<div *ngIf="students.length === 0">
+  There are no students found!
+</div>
+
+<div *ngFor="let student of students">
+  <h4>{{ student.name }}</h4>
+  <p>{{ student.gpa }}</p>
+  <hr>
+</div>
+

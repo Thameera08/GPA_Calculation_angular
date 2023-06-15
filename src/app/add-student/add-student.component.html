@@ -1,0 +1,15 @@
+<h2>Add New Student</h2>
+
+<form [form Group]="studentForm" (ngSubmit)="addStudent()">
+  <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" formControlName="name" required>
+  </div>
+  <!-- <div formArrayName="marks">
+    <div *ngFor="let markControl of studentForm.get('marks').controls; let i = index">
+      <input type="number" [formControl Name]="i" required>
+    </div>
+  </div> -->
+
+  <button type="submit" [disabled]="studentForm.invalid">Add New Student</button>
+</form>

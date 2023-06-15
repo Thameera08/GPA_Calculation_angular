@@ -1,0 +1,11 @@
+<h2>Dashboard</h2>
+
+<div *ngIf="students.length === 0">
+  No students found.
+</div>
+
+<div *ngFor="let student of students">
+  <h4>{{ student.name }}</h4>
+  <p>GPA: {{ student.gpa }}</p>
+  <hr>
+</div>

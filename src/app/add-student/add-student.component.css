@@ -1,0 +1,22 @@
+/* add-student.component.css */
+.form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .invalid-feedback {
+    color: red;
+    font-size: 14px;
+  }
+  
+  .btn-add-mark {
+    margin-top: 0.5rem;
+  }
+  
+  .btn-remove-mark {
+    margin-left: 0.5rem;
+  }
+  
+  .btn-submit {
+    margin-top: 1rem;
+  }
+  
